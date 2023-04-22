@@ -1,0 +1,844 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+ 
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin: 0px 10px;
+}
+.navleft, .navright{
+    margin: 0px 100px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.btn{
+    display: none;
+}
+.menu li a{
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #212832;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a:hover{
+    color: rgb(248, 15, 15);
+}
+.menu button{
+    background-color: white;
+    border: 0.5px solid black;
+}
+.menu select{
+    border:none;
+}
+.menuul1{
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(165, 160, 160);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    opacity: 15%;
+    margin-top: -20px;
+  
+}
+.menuul1 li{
+    margin: 2px 0px;
+}
+.menuli1:hover .menuul1{
+    visibility: visible;
+    opacity: 80%;
+    margin-top: 0;
+}
+.menuul2{
+    visibility: hidden;
+    position: absolute;
+    background-color:rgb(165, 160, 160);
+    opacity: 15%;
+    margin-top: -20px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-left: -30px;
+    padding: 10px;
+}
+.menuli2:hover .menuul2{
+    visibility: visible;
+    opacity: 80%;
+    margin-top: 0;
+    font-weight: bold;
+  
+}
+.none{
+    display: none;
+}
+
+.travel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 50px;
+}
+.travel-text{
+    width: 40%;
+    margin-left: 50px;
+}
+.travel-text h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #DF6951;
+}
+.travel-text h1{
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 60px;
+width: 80%;
+color: #181E4B;
+margin-top: 0;
+}
+.travel-text p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #5E6282;
+width: 80%;
+}
+.ttext-p{
+    margin-top: -15px;
+}
+.travel-img{
+    width: 40%;
+}
+.travel-img img{
+    width: 400px;
+    height: 450px;
+}
+.anim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 70%;
+ 
+}
+.anim button{
+    background-color: rgb(192, 140, 8);
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}
+.anim button:hover{
+    background-color: black;
+}
+.animation{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+
+}
+
+  
+
+
+.animation-outside, .animation-inside{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(241, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.category{
+    text-align: center;
+}
+.category a span{
+    margin-bottom: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+    margin-bottom: 10px;
+}
+.category a h1{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    color: #14183E;
+    margin-top: 0;
+}
+.category a{
+    text-decoration: none
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.services div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+.services h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1D4C;
+}
+.services img{
+    width: 80px;
+    height: 80px;
+}
+.services p {
+    width: 70%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #5E6282;
+    
+}
+
+.service:hover{
+    box-shadow: 10px 15px 15px rgb(68, 68, 68);
+    margin-top: -3px;
+    border-radius: 8px;
+    border: 1px solid goldenrod;
+    
+
+}
+.selling{
+    text-align: center;
+    margin-top: 25px;
+}
+.selling span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+}
+.selling h1{
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    color: #14183E;
+    margin-top: 0;
+}
+.destinations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.destination {
+    width: 22%;
+    height: 270px;
+    margin: 0px 10px;
+    border-radius: 8px;
+}
+.destination img{
+    width: 100%;
+    height: 190px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.destination-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: -0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5E6282;
+
+}
+.destination-icon span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    font-family: 'Poppins';
+    color: #5E6282;
+}
+.destination-icon i{
+    color: goldenrod;
+}
+.destination-icon{
+    padding: 0px 10px;
+}
+.destination:hover{
+    box-shadow: 10px 15px 15px rgb(68, 68, 68);
+    border: 1px solid goldenrod;
+    margin-top: -3px;
+}
+.choosedest{
+    display: flex;
+    align-items: center;
+}
+.easy-text{
+    width: 40%;
+   
+}
+.choosedest p{
+     width: 65%;
+}
+.choosedest-text{
+    margin-left: 10px;
+}
+.choosedest-img img{
+width: 60px;
+height: 60px;
+}
+ .easy-text-P{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+}
+.easy-text h3{
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 55px;
+width: 85%;
+color: #14183E;
+}
+.choosedest-text h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+.choosedest-text p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 124.5%;
+color: #5E6282;
+}
+.easy-img{
+ 
+ width: 40%;
+ display: flex;
+ justify-content: flex-start;
+ height: 500px;
+ display: flex;
+ align-items: center;
+
+}
+.easy-and-fast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+.easy-img-big{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 15px;
+}
+
+.easy-img-big-img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.easy-img-big-img img{
+    width: 90%;
+    height: 90%;
+}
+.big-img-icons{
+    display: flex;
+}
+.big-img-icons i{
+    margin: 0px 20px;
+}
+.going{
+    display: flex;
+    align-items: center;
+}
+.ongoing{
+    width: 100%;
+    height: 50%;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+}
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.companies img{
+    margin: 0px 20px;
+}
+.input-main{
+    width: 90%;
+    height: 400px;
+    background: #DFD7F9;
+  opacity: 0.7;
+border-radius: 20px 129px 20px 20px;
+display: block;
+margin: auto;
+
+}
+
+.input-main p {
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 54px;
+color: #141d61;
+width: 60%;
+display: block;
+margin: auto;
+}
+.input-main-p-center{
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.mask-img{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+.img-42{
+    position: absolute;
+    margin-top: -100px;
+}
+.input-main input{
+    width: 250px;
+    height: 40px;
+    background-color: yellow;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425D;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+.input-main button{
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+.input-center{
+    display: flex;
+    justify-content: center;
+   
+}
+.input-main .stars-img{
+    margin-left: 1100px;
+}
+body{
+ background-color: #E5E5E5;
+}
+
+footer .foot{
+    width: 90%;
+    height: 500px;
+    display: block;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot span{
+    display: block;
+}
+.foot-main p{
+    width: 80%;
+}
+.foot-socials-icons {
+    display: flex;
+    align-items: center;
+}
+.foot-socials-icons i {
+    margin: 0px 15px;
+    font-size: 30px;
+    color: black;
+
+}
+.foot-socials p{
+    text-align: center;
+}
+
+.foot-main,  .foot-contact, .foot-more, .foot-companies{
+    width: 18%;
+}
+.foot a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+.foot h5{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 124.5%;
+color: #080809;
+}
+.foot h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181E4B;
+}
+
+.carousel-x{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.carousel-left{
+    width: 40%;
+}
+.carousel-right{
+    width: 40%;
+}
+.carousel-left h2{
+    width: 60%;
+    font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+color: #14183E;
+
+}
+.carousel-right-img p{
+    width: 80%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+color: #5E6282;
+
+}
+.carousel-right h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+}
+.carousel-right p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #5E6282;
+
+}
+.ceo{
+    width: 200px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.ceo h4{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+
+}
+.carousel-left p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #5E6282;
+}
+@media screen and (max-widh:1100px){
+   
+}
+@media(max-width:900px){
+    .btn{
+        display: block;
+      
+    }
+    .navleft img{
+        display: none;
+    }
+    .navleft{
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+        position: absolute;
+        top:-100%;
+        width: 100%;
+        height: 40vh;
+        transition: 1s;
+        background-color: #718C9E;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        background-color: rgb(245, 191, 54);
+        align-items: center;
+        align-items: center;
+        padding: 10px;
+        
+    }
+    .navright li :hover{
+         font-size: 25px;
+         font-weight: bold;
+    }
+    .menu li{
+        margin: 10px 0px;
+        width: 100%;
+    }
+    nav{
+      background-color: goldenrod;
+    }
+    .menu select{
+        display: none;
+    }
+    .menu button{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .menu.active{
+     top:70px
+    }
+    .services div{
+        width: 25%;
+    }
+    .destination{
+        width: 30%;
+    }
+    .travel-img{
+        width: 95%;
+    }
+    .travel-text{
+        width: 95%;
+    }
+    .easy-text{
+        width: 95%;
+    }
+    .easy-img{
+        width: 95%;
+    } 
+    .animation{
+        width: 100%;
+    }
+    .easy-and-fast{
+        padding: 0px 20px;
+    }
+
+    
+ 
+
+}
+
+@media screen and (max-width:800px){
+    .services div{
+        width: 50%;
+    }
+    .destination{
+        width: 50%;
+    }
+    
+    .easy-text{
+        width: 95%;
+    }
+    .easy-img{
+        width: 95%;
+    }
+    .easy-and-fast{
+        padding: 0px 20px;
+    }
+    .travel{
+        padding: 0px 5px;
+    }
+    .services{
+        justify-content: center;
+    }
+    .foot-wrap{
+        width: 40%;
+    }
+   
+}
+
+@media screen and (max-width:600px){
+    .services div{
+        width: 75%;
+    }
+    .destination{
+        width: 75%;
+    } 
+    .input-main p{
+        font-size: 20px;
+        width: 80%;
+    }
+    .mask-img{
+        display: none;
+    }
+    .img-42{
+        display: none;
+    }
+    .input-main {
+        margin-top: 30px;
+    }
+    .foot-wrap{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .services div{
+        width: 95%;
+    }
+    .destination{
+        width: 95%;
+    }
+  
+}
+@media screen and (max-width:500px){
+    .travel-text h5, h1, p{
+        text-align: center;
+        width: 95%;
+    }
+    .anim{
+        width: 400px;
+        justify-content: center;
+    }
+   
+  
+    .anim{
+        width: 80%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .animation {
+        margin-top: 10px;
+    }
+    .input-main p{
+        font-size: 20px;
+        width: 90%;
+    }
+    .foot-wrap{
+        width: 95%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .foot-wrap p {
+        width: 100%;
+    }
+   
+    
+
+}
+@media screen and (max-width:470px){
+  .easy-img-trip-little{
+    margin-left: -1px;
+  }
+}
+@media screen and (max-width:390px){
+    .easy-text h3, .easy-text-P{
+        text-align: center;
+    }
+    .choosedest-text p {
+        width: 95%;
+    }
+    .easy-text h3{
+        margin-top: 0;
+    }
+    .choosedest{
+      margin-top: -25px;
+    }
+    .travel-img{
+     margin-left: -70px;
+    }
+   
+}
+
